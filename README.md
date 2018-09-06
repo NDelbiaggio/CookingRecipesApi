@@ -106,6 +106,6 @@ node populateDatabase.js
 # Routes
 
 - **/api/units** GET only
+- **/api/categories** GET only
 - **/api/ingredients** GET & POST only
 - **/api/recipes** not available yet
-- **/api/categories** not available yet
