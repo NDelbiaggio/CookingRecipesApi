@@ -78,6 +78,12 @@ node index.js
 
 by default the server is running on **localhost:3900**
 
+## Populate the database
+For adding some data in the database run 
+```
+node populateDatabase.js
+```
+
 # Routes
   - **/api/ingredients** GET & POST only
   - **/api/recipes**  not available yet
