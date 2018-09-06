@@ -75,3 +75,10 @@ or
 ```
 node index.js
 ```
+
+by default the server is running on **localhost:3900**
+
+# Routes
+  - **/api/ingredients** GET & POST only
+  - **/api/recipes**  not available yet
+  - **/api/categories**  not available yet
