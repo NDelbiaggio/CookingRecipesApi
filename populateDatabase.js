@@ -34,18 +34,541 @@ async function addIngredients() {
     category: "Fruit",
     description: "Banana from Thailand"
   });
+  ingredient = await ingredient.save();
 
+  (ingredient = new Ingredient({
+    name: "Apple ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/1203781_1-fresho-apple-washington-regualr.jpg",
+    category: "fruit",
+    description: " Washington, Regualr"
+  })),
+    (ingredient = await ingredient.save());
+  (ingredient = new Ingredient({
+    name: "Banana ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000031_20-fresho-banana-yelakki.jpg",
+    category: "fruit",
+    description: " Yelakki"
+  })),
+    (ingredient = await ingredient.save());
+  (ingredient = new Ingredient({
+    name: "Apple ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/1201613_2-fresho-apple-washington-4-pcs-kiwi-green-3-pcs-pomegranate-4-pcs.jpg",
+    category: "fruit",
+    description: " Washington 4 pcs + Kiwi "
+  })),
+    (ingredient = await ingredient.save());
+  (ingredient = new Ingredient({
+    name: "Pomegranate",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/40042512_10-fresho-pomegranate.jpg",
+    category: "fruit",
+    description: ""
+  })),
+    (ingredient = await ingredient.save());
+  (ingredient = new Ingredient({
+    name: "Coconut ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000093_16-fresho-coconut-medium.jpg",
+    category: "fruit",
+    description: " Medium"
+  })),
+    (ingredient = await ingredient.save());
+  (ingredient = new Ingredient({
+    name: "Kiwi ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/20000911_27-fresho-kiwi-green.jpg",
+    category: "fruit",
+    description: " Green"
+  })),
+    (ingredient = await ingredient.save());
+  (ingredient = new Ingredient({
+    name: "Papaya ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000152_15-fresho-papaya-semi-ripe.jpg",
+    category: "fruit",
+    description: " Semi Ripe"
+  })),
+    (ingredient = await ingredient.save());
+  (ingredient = new Ingredient({
+    name: "Apple ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/1203785_1-fresho-apple-fuji-regular.jpg",
+    category: "fruit",
+    description: " Fuji, Regular"
+  })),
+    (ingredient = await ingredient.save());
+  (ingredient = new Ingredient({
+    name: "Banana ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000025_22-fresho-banana-robusta.jpg",
+    category: "fruit",
+    description: " Robusta"
+  })),
+    (ingredient = await ingredient.save());
+  (ingredient = new Ingredient({
+    name: "Tender Coconut ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/40057966_2-fresho-tender-coconut-medium.jpg",
+    category: "fruit",
+    description: " Medium"
+  })),
+    (ingredient = await ingredient.save());
+  (ingredient = new Ingredient({
+    name: "Watermelon  ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000207_19-fresho-watermelon-small.jpg",
+    category: "fruit",
+    description: " Small"
+  })),
+    (ingredient = await ingredient.save());
+  (ingredient = new Ingredient({
+    name: "Guava",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000369_13-fresho-guava.jpg",
+    category: "fruit",
+    description: ""
+  })),
+    (ingredient = await ingredient.save());
+  (ingredient = new Ingredient({
+    name: "Pomegrante Peeled",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/40097808_2-fresho-pomegrante-peeled.jpg",
+    category: "fruit",
+    description: ""
+  })),
+    (ingredient = await ingredient.save());
+  (ingredient = new Ingredient({
+    name: "Avocado",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000312_17-fresho-avocado.jpg",
+    category: "fruit",
+    description: ""
+  })),
+    (ingredient = await ingredient.save());
+  (ingredient = new Ingredient({
+    name: "Apple ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/1203783_1-fresho-apple-royal-gala-regular.jpg",
+    category: "fruit",
+    description: " Royal Gala, Regular"
+  })),
+    (ingredient = await ingredient.save());
+  (ingredient = new Ingredient({
+    name: "Orange ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/20000909_17-fresho-orange-imported-regular.jpg",
+    category: "fruit",
+    description: " Imported, Regular"
+  })),
+    (ingredient = await ingredient.save());
+  (ingredient = new Ingredient({
+    name: "Pear ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/1202331_1-usa-pear-green-imported.jpg",
+    category: "fruit",
+    description: " Green, Imported"
+  })),
+    (ingredient = await ingredient.save());
+  (ingredient = new Ingredient({
+    name: "Apple ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000005_23-fresho-apple-royal-gala-economy.jpg",
+    category: "fruit",
+    description: " Royal Gala Economy"
+  })),
+    (ingredient = await ingredient.save());
+  (ingredient = new Ingredient({
+    name: "Banana ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000346_18-fresho-banana-nendran.jpg",
+    category: "fruit",
+    description: " Nendran"
+  })),
+    (ingredient = await ingredient.save());
+  (ingredient = new Ingredient({
+    name: "Mosambi",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000191_19-fresho-mosambi.jpg",
+    category: "fruit",
+    description: ""
+  })),
+    (ingredient = await ingredient.save());
+  ingredient = new Ingredient({
+    name: "Onion",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000148_24-fresho-onion.jpg",
+    category: "vegetable",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Potato",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000159_25-fresho-potato.jpg",
+    category: "vegetable",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Tomato ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000200_17-fresho-tomato-hybrid.jpg",
+    category: "vegetable",
+    description: " Hybrid"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Carrot ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000070_15-fresho-carrot-local.jpg",
+    category: "vegetable",
+    description: " Local"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Cauliflower",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000074_19-fresho-cauliflower.jpg",
+    category: "vegetable",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Capsicum ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000067_23-fresho-capsicum-green.jpg",
+    category: "vegetable",
+    description: " Green"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Palak",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/20000979_10-fresho-palak.jpg",
+    category: "vegetable",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Mushrooms ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000273_13-fresho-mushrooms-button.jpg",
+    category: "vegetable",
+    description: " Button"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Cucumber",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000102_17-fresho-cucumber.jpg",
+    category: "vegetable",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Tomato ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000203_16-fresho-tomato-local.jpg",
+    category: "vegetable",
+    description: " Local"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Fresho Palak ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/1204552_3-bb-combo-fresho-palak-without-root-250-gm-amul-malai-paneer-200-gm.jpg",
+    category: "vegetable",
+    description: " Without Root 250 Gm + Amul Malai Paneer 200 Gm"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Bottle Gourd",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000051_18-fresho-bottle-gourd.jpg",
+    category: "vegetable",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Cucumber, Carrot &amp; Beetroot 500g Each Salad",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/1202153_1-fresho-cucumber-carrot-beetroot-500g-each-salad.jpg",
+    category: "vegetable",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Cabbage",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000066_25-fresho-cabbage.jpg",
+    category: "vegetable",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name:
+      "Fresho Palak Without Root 250Gm + Gowardhan Fresh Paneer Classic Block 200Gm",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/1204548_3-bb-combo-fresho-palak-without-root-250gm-gowardhan-fresh-paneer-classic-block-200gm.jpg",
+    category: "vegetable",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Ridge Gourd",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000175_15-fresho-ridge-gourd.jpg",
+    category: "vegetable",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Onion ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/40023472_3-fresho-onion-organically-grown.jpg",
+    category: "vegetable",
+    description: " Organically Grown"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Tomato ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/40022638_3-fresho-tomato-local-organically-grown.jpg",
+    category: "vegetable",
+    description: " Local, Organically Grown"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Beetroot",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000045_18-fresho-beetroot.jpg",
+    category: "vegetable",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Coriander Leaves",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000097_19-fresho-coriander-leaves.jpg",
+    category: "Herbs & Seasonings",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Lemon",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000335_15-fresho-lemon.jpg",
+    category: "Herbs & Seasonings",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Ginger",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000338_13-fresho-ginger.jpg",
+    category: "Herbs & Seasonings",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Indian Herbs and Condiments",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/1202817_1-fresho-indian-herbs-and-condiments.jpg",
+    category: "Herbs & Seasonings",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Garlic &amp; Ginger 100g Each",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/1202152_1-fresho-garlic-ginger-100g-each.jpg",
+    category: "Herbs & Seasonings",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Chilli ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/50000511_4-fresho-chilli-green-organically-grown.jpg",
+    category: "Herbs & Seasonings",
+    description: " Green, Organically Grown"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Garlic",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000330_14-fresho-garlic.jpg",
+    category: "Herbs & Seasonings",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Ginger ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/40023480_3-fresho-ginger-organically-grown.jpg",
+    category: "Herbs & Seasonings",
+    description: " Organically Grown"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Chilli ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000333_13-fresho-chilli-green-big.jpg",
+    category: "Herbs & Seasonings",
+    description: " Green, Big"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Curry Leaves",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000104_17-fresho-curry-leaves.jpg",
+    category: "Herbs & Seasonings",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Garlic ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/30005201_4-fresho-garlic-peeled.jpg",
+    category: "Herbs & Seasonings",
+    description: " Peeled"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Lemon ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/40023481_4-fresho-lemon-organically-grown.jpg",
+    category: "Herbs & Seasonings",
+    description: " Organically Grown"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Garlic ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/50000508_4-fresho-garlic-organically-grown.jpg",
+    category: "Herbs & Seasonings",
+    description: " Organically Grown"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Basil ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000314_13-fresho-basil-italian.jpg",
+    category: "Herbs & Seasonings",
+    description: " Italian"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Celery",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000313_13-fresho-celery.jpg",
+    category: "Herbs & Seasonings",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Chilli ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000337_12-fresho-chilli-bajji.jpg",
+    category: "Herbs & Seasonings",
+    description: " Bajji"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Dill Leaves",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000107_18-fresho-dill-leaves.jpg",
+    category: "Herbs & Seasonings",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Ginger ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/30005202_10-fresho-ginger-chopped.jpg",
+    category: "Herbs & Seasonings",
+    description: " Chopped"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Lemon Grass",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000317_13-fresho-lemon-grass.jpg",
+    category: "Herbs & Seasonings",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Coriander",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/s/10000821_3-gopalan-organic-coriander.jpg",
+    category: "Herbs & Seasonings",
+    description: ""
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Parsley Leaves ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/mm/10000663_4-fresho-parsley-leaves-curly.jpg",
+    category: "Herbs & Seasonings",
+    description: " Curly"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Chilli ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/mm/40027986_1-fresho-chilli-green-big-organically-grown.jpg",
+    category: "Herbs & Seasonings",
+    description: " Green Big, Organically Grown"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Green Chilly ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/mm/40005802_8-fresho-green-chilly-chopped.jpg",
+    category: "Herbs & Seasonings",
+    description: " Chopped"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Neem Giloy (Amruta Balli) ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/mm/40020933_4-fresho-neem-giloy-amruta-balli-organically-grown.jpg",
+    category: "Herbs & Seasonings",
+    description: " Organically Grown"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Fresh Turmeric ",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/mm/40020581_2-fresho-fresh-turmeric-organically-grown.jpg",
+    category: "Herbs & Seasonings",
+    description: " Organically Grown"
+  });
+  ingredient = await ingredient.save();
+  ingredient = new Ingredient({
+    name: "Sweet Basil (Ocimum Basilicum)",
+    image:
+      "https://www.bigbasket.com/media/uploads/p/mm/40077440_1-simply-fresh-sweet-basil-ocimum-basilicum.jpg",
+    category: "Herbs & Seasonings",
+    description: ""
+  });
   ingredient = await ingredient.save();
 }
 
 async function addCategories() {
   let category = new Category({ name: "fruit" });
   category = await category.save();
-  category = new Category({ name: "vegetables" });
+  category = new Category({ name: "vegetable" });
   category = await category.save();
   category = new Category({ name: "meat" });
   category = await category.save();
   category = new Category({ name: "fish" });
+  category = await category.save();
+  category = new Category({ name: "Herbs & Seasonings" });
   category = await category.save();
 }
 async function addUnits() {
@@ -93,3 +616,23 @@ main().then(results => {
   console.log("database has been populated");
   process.exit();
 });
+
+/**
+ * 
+https://www.bigbasket.com/pc/fruits-vegetables/fresh-vegetables/?nc=ct-fa&sid=bYIUeIyibWQDoWMBom5mw6JjY6M0ODmiYW_ConVywqJhcMOibHTNARujZHNqTaFvqnBvcHVsYXJpdHmiZHPNAS-jbXJpzQ4u
+
+  let products = document.getElementsByClassName('item')
+  for(var i = 0; i < products.length; i++){
+    let img = products[i].getElementsByClassName('img-responsive')
+    //console.log(img[0].currentSrc)
+    let name = products[i].getElementsByClassName('prod-name')
+    if(name[0]){
+      let nam = name[0].getElementsByTagName('a')
+      let props = nam[0].innerHTML.split('-')
+      name = props[0]
+      desc = props[1] || '';
+      console.log(`ingredient = new Ingredient({name: '${name}', image: '${img[0].currentSrc}', category: 'vegetable', description: '${desc}'}); 
+      ingredient = await ingredient.save();`)
+      }
+  }
+ */
