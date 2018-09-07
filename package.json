@@ -20,5 +20,13 @@
     "config": "^2.0.1",
     "express": "^4.16.3",
     "mongoose": "^5.2.13"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.5.5"
+  },
+  "apidoc": {
+    "title": "Cooking apidoc",
+    "name": "Cooking apidoc",
+    "url": "localhost:3900"
   }
 }
