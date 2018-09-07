@@ -109,3 +109,7 @@ node populateDatabase.js
 - **/api/categories** GET only
 - **/api/ingredients** GET & POST only
 - **/api/recipes** not available yet
+
+# Documentation
+
+[Documentation](https://ndelbiaggio.github.io/CookingRecipesApi/) of the api.
