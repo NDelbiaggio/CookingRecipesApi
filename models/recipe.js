@@ -12,6 +12,7 @@ const { ingredientSchema } = require("./ingredient");
  */
 const recipeSchema = new mongoose.Schema({
   name: String,
+  description: String,
   time: Number,
   cookingTime: Number,
   ovenTemperature: String,
