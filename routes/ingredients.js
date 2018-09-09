@@ -41,7 +41,7 @@ router.get("/", async (req, res) => {
 
 router.get("/:id", async (req, res) => {
   let id = req.params.id;
-  const ingredients = await Ingredient.find({ _id: id }).select("-__v");
+  const ingredients = await Ingredient.findOne({ _id: id }).select("-__v");
   res.send(ingredients);
 });
 
