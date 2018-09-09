@@ -39,6 +39,12 @@ router.get("/", async (req, res) => {
   res.send(ingredients);
 });
 
+router.get("/:id", async (req, res) => {
+  let id = req.params.id;
+  const ingredients = await Ingredient.find({ _id: id }).select("-__v");
+  res.send(ingredients);
+});
+
 /**
  * @api {POST} /api/ingredients Create an ingredient
  * @apiGroup Ingredients
