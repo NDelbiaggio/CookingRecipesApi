@@ -9,8 +9,19 @@ module.exports = new buildSchema(`
         description: String
     },
 
+    type Recipe {
+        id: String,
+        name: String,
+        description: String,
+        time: Int,
+        cookingTime: Int,
+        ovenTemperature: String,
+        ingredients: [Ingredient],
+        steps: [String]
+    }
+
     
-    input  FilterIngredient {
+    input FilterIngredient {
         name: String,
         image: String,
         category: String,
@@ -27,6 +38,7 @@ module.exports = new buildSchema(`
     type Query {
         ingredient(_id: String): Ingredient
         ingredients(filter: Filter): [Ingredient]
+        recipes: [Recipe]
     },
 
     type Mutation {
