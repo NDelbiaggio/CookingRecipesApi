@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+var mongoosePaginate = require("mongoose-paginate");
 
 /**
  * @class Ingredient
@@ -13,6 +14,8 @@ const ingredientSchema = new mongoose.Schema({
   category: String,
   description: String
 });
+
+ingredientSchema.plugin(mongoosePaginate);
 
 const Ingredient = mongoose.model("Ingredient", ingredientSchema);
 

@@ -1,6 +1,10 @@
 const { Ingredient } = require("../models/ingredient");
 const express = require("express");
 const router = express.Router();
+const querystring = require("querystring");
+var mongoosePaginate = require("mongoose-paginate");
+
+const _ = require("lodash");
 
 /**
  * @apiDefine Ingredient
@@ -35,8 +39,14 @@ const router = express.Router();
  *
  */
 router.get("/", async (req, res) => {
-  const ingredients = await Ingredient.find().select("-__v");
-  res.send(ingredients);
+  let options = req.query.options ? JSON.parse(req.query.options) : {};
+  let query = req.query.query ? JSON.parse(req.query.query) : {};
+
+  Object.keys(query).map(key => {
+    query[key] = new RegExp(query[key], "i");
+  });
+  const ingredients = await Ingredient.paginate(query, options);
+  res.json(ingredients);
 });
 
 router.get("/:id", async (req, res) => {

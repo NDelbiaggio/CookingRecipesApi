@@ -21,7 +21,9 @@
     "express": "^4.16.3",
     "express-graphql": "^0.6.12",
     "graphql": "^14.0.2",
-    "mongoose": "^5.2.13"
+    "lodash": "^4.17.10",
+    "mongoose": "^5.2.13",
+    "mongoose-paginate": "^5.0.3"
   },
   "devDependencies": {
     "jsdoc": "^3.5.5"
